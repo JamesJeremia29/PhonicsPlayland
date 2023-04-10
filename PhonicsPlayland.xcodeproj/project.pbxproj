@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24E8C84E29E14CE600AF550B /* PhonicsPlaylandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C84D29E14CE600AF550B /* PhonicsPlaylandApp.swift */; };
+		24E8C85029E14CE600AF550B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C84F29E14CE600AF550B /* ContentView.swift */; };
+		24E8C85229E14CE700AF550B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E8C85129E14CE700AF550B /* Assets.xcassets */; };
+		24E8C85529E14CE700AF550B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E8C85429E14CE700AF550B /* Preview Assets.xcassets */; };
+		24E8C85C29E1520000AF550B /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C85B29E1520000AF550B /* CameraService.swift */; };
+		24E8C85E29E15A5E00AF550B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C85D29E15A5E00AF550B /* CameraView.swift */; };
+		24E8C86029E15F9400AF550B /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C85F29E15F9400AF550B /* CustomCameraView.swift */; };
+		24E8C86529E1694100AF550B /* ObjectPhonics.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C86429E1694100AF550B /* ObjectPhonics.mlmodel */; };
+		24E8C86729E16F8900AF550B /* ObjectClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C86629E16F8900AF550B /* ObjectClassifier.swift */; };
+		24E8C88C29E272F500AF550B /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C88B29E272F500AF550B /* WordView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24E8C84A29E14CE600AF550B /* PhonicsPlayland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhonicsPlayland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E8C84D29E14CE600AF550B /* PhonicsPlaylandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonicsPlaylandApp.swift; sourceTree = "<group>"; };
+		24E8C84F29E14CE600AF550B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24E8C85129E14CE700AF550B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24E8C85429E14CE700AF550B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24E8C85B29E1520000AF550B /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		24E8C85D29E15A5E00AF550B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		24E8C85F29E15F9400AF550B /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
+		24E8C86429E1694100AF550B /* ObjectPhonics.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ObjectPhonics.mlmodel; path = ../../../ObjectPhonics.mlmodel; sourceTree = "<group>"; };
+		24E8C86629E16F8900AF550B /* ObjectClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectClassifier.swift; sourceTree = "<group>"; };
+		24E8C88B29E272F500AF550B /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E8C84729E14CE600AF550B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E8C84129E14CE600AF550B = {
+			isa = PBXGroup;
+			children = (
+				24E8C84C29E14CE600AF550B /* PhonicsPlayland */,
+				24E8C84B29E14CE600AF550B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24E8C84B29E14CE600AF550B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E8C84A29E14CE600AF550B /* PhonicsPlayland.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24E8C84C29E14CE600AF550B /* PhonicsPlayland */ = {
+			isa = PBXGroup;
+			children = (
+				24E8C88E29E2730A00AF550B /* Component */,
+				24E8C86129E168DE00AF550B /* Model */,
+				24E8C84D29E14CE600AF550B /* PhonicsPlaylandApp.swift */,
+				24E8C84F29E14CE600AF550B /* ContentView.swift */,
+				24E8C85B29E1520000AF550B /* CameraService.swift */,
+				24E8C85D29E15A5E00AF550B /* CameraView.swift */,
+				24E8C85F29E15F9400AF550B /* CustomCameraView.swift */,
+				24E8C85129E14CE700AF550B /* Assets.xcassets */,
+				24E8C85329E14CE700AF550B /* Preview Content */,
+				24E8C86629E16F8900AF550B /* ObjectClassifier.swift */,
+			);
+			path = PhonicsPlayland;
+			sourceTree = "<group>";
+		};
+		24E8C85329E14CE700AF550B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24E8C85429E14CE700AF550B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24E8C86129E168DE00AF550B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24E8C86429E1694100AF550B /* ObjectPhonics.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24E8C88E29E2730A00AF550B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				24E8C88B29E272F500AF550B /* WordView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24E8C84929E14CE600AF550B /* PhonicsPlayland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E8C85829E14CE700AF550B /* Build configuration list for PBXNativeTarget "PhonicsPlayland" */;
+			buildPhases = (
+				24E8C84629E14CE600AF550B /* Sources */,
+				24E8C84729E14CE600AF550B /* Frameworks */,
+				24E8C84829E14CE600AF550B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhonicsPlayland;
+			productName = PhonicsPlayland;
+			productReference = 24E8C84A29E14CE600AF550B /* PhonicsPlayland.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24E8C84229E14CE600AF550B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					24E8C84929E14CE600AF550B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 24E8C84529E14CE600AF550B /* Build configuration list for PBXProject "PhonicsPlayland" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24E8C84129E14CE600AF550B;
+			productRefGroup = 24E8C84B29E14CE600AF550B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24E8C84929E14CE600AF550B /* PhonicsPlayland */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24E8C84829E14CE600AF550B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E8C85529E14CE700AF550B /* Preview Assets.xcassets in Resources */,
+				24E8C85229E14CE700AF550B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E8C84629E14CE600AF550B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E8C88C29E272F500AF550B /* WordView.swift in Sources */,
+				24E8C85029E14CE600AF550B /* ContentView.swift in Sources */,
+				24E8C86729E16F8900AF550B /* ObjectClassifier.swift in Sources */,
+				24E8C84E29E14CE600AF550B /* PhonicsPlaylandApp.swift in Sources */,
+				24E8C86029E15F9400AF550B /* CustomCameraView.swift in Sources */,
+				24E8C85C29E1520000AF550B /* CameraService.swift in Sources */,
+				24E8C86529E1694100AF550B /* ObjectPhonics.mlmodel in Sources */,
+				24E8C85E29E15A5E00AF550B /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24E8C85629E14CE700AF550B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24E8C85729E14CE700AF550B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24E8C85929E14CE700AF550B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhonicsPlayland/Preview Content\"";
+				DEVELOPMENT_TEAM = LM2SWXFAWT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleAcademy.PhonicsPlayland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24E8C85A29E14CE700AF550B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhonicsPlayland/Preview Content\"";
+				DEVELOPMENT_TEAM = LM2SWXFAWT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleAcademy.PhonicsPlayland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24E8C84529E14CE600AF550B /* Build configuration list for PBXProject "PhonicsPlayland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E8C85629E14CE700AF550B /* Debug */,
+				24E8C85729E14CE700AF550B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E8C85829E14CE700AF550B /* Build configuration list for PBXNativeTarget "PhonicsPlayland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E8C85929E14CE700AF550B /* Debug */,
+				24E8C85A29E14CE700AF550B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24E8C84229E14CE600AF550B /* Project object */;
+}

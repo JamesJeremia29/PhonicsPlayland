@@ -11,12 +11,17 @@
 		24E8C85029E14CE600AF550B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C84F29E14CE600AF550B /* ContentView.swift */; };
 		24E8C85229E14CE700AF550B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E8C85129E14CE700AF550B /* Assets.xcassets */; };
 		24E8C85529E14CE700AF550B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E8C85429E14CE700AF550B /* Preview Assets.xcassets */; };
-		24E8C85C29E1520000AF550B /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C85B29E1520000AF550B /* CameraService.swift */; };
-		24E8C85E29E15A5E00AF550B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C85D29E15A5E00AF550B /* CameraView.swift */; };
-		24E8C86029E15F9400AF550B /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C85F29E15F9400AF550B /* CustomCameraView.swift */; };
 		24E8C86529E1694100AF550B /* ObjectPhonics.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C86429E1694100AF550B /* ObjectPhonics.mlmodel */; };
 		24E8C86729E16F8900AF550B /* ObjectClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C86629E16F8900AF550B /* ObjectClassifier.swift */; };
 		24E8C88C29E272F500AF550B /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C88B29E272F500AF550B /* WordView.swift */; };
+		24E8C89129E40B9B00AF550B /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C89029E40B9B00AF550B /* FrameView.swift */; };
+		24E8C89429E40C2D00AF550B /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C89329E40C2D00AF550B /* CameraManager.swift */; };
+		24E8C89629E40D7100AF550B /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C89529E40D7100AF550B /* FrameManager.swift */; };
+		24E8C89829E40DC700AF550B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C89729E40DC700AF550B /* ContentViewModel.swift */; };
+		24E8C89A29E4104900AF550B /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C89929E4104900AF550B /* CameraError.swift */; };
+		24E8C89C29E4111300AF550B /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C89B29E4111300AF550B /* ErrorView.swift */; };
+		24E8C89F29E4126300AF550B /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C89E29E4126300AF550B /* CGImageExtension.swift */; };
+		24E8C8A129E462CB00AF550B /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8C8A029E462CB00AF550B /* AudioManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +30,17 @@
 		24E8C84F29E14CE600AF550B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24E8C85129E14CE700AF550B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24E8C85429E14CE700AF550B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		24E8C85B29E1520000AF550B /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
-		24E8C85D29E15A5E00AF550B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		24E8C85F29E15F9400AF550B /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
 		24E8C86429E1694100AF550B /* ObjectPhonics.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ObjectPhonics.mlmodel; path = ../../../ObjectPhonics.mlmodel; sourceTree = "<group>"; };
 		24E8C86629E16F8900AF550B /* ObjectClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectClassifier.swift; sourceTree = "<group>"; };
 		24E8C88B29E272F500AF550B /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+		24E8C89029E40B9B00AF550B /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		24E8C89329E40C2D00AF550B /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		24E8C89529E40D7100AF550B /* FrameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		24E8C89729E40DC700AF550B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		24E8C89929E4104900AF550B /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		24E8C89B29E4111300AF550B /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorView.swift; path = ../../../FilterTheWorld/final/FilterTheWorld/Views/ErrorView.swift; sourceTree = "<group>"; };
+		24E8C89E29E4126300AF550B /* CGImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
+		24E8C8A029E462CB00AF550B /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,16 +73,16 @@
 		24E8C84C29E14CE600AF550B /* PhonicsPlayland */ = {
 			isa = PBXGroup;
 			children = (
+				24E8C89D29E4124000AF550B /* Extensions */,
+				24E8C89229E40C1B00AF550B /* Camera */,
+				24E8C88F29E40B5800AF550B /* Views */,
 				24E8C88E29E2730A00AF550B /* Component */,
 				24E8C86129E168DE00AF550B /* Model */,
 				24E8C84D29E14CE600AF550B /* PhonicsPlaylandApp.swift */,
-				24E8C84F29E14CE600AF550B /* ContentView.swift */,
-				24E8C85B29E1520000AF550B /* CameraService.swift */,
-				24E8C85D29E15A5E00AF550B /* CameraView.swift */,
-				24E8C85F29E15F9400AF550B /* CustomCameraView.swift */,
 				24E8C85129E14CE700AF550B /* Assets.xcassets */,
 				24E8C85329E14CE700AF550B /* Preview Content */,
 				24E8C86629E16F8900AF550B /* ObjectClassifier.swift */,
+				24E8C8A029E462CB00AF550B /* AudioManager.swift */,
 			);
 			path = PhonicsPlayland;
 			sourceTree = "<group>";
@@ -99,6 +109,35 @@
 				24E8C88B29E272F500AF550B /* WordView.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		24E8C88F29E40B5800AF550B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24E8C89B29E4111300AF550B /* ErrorView.swift */,
+				24E8C84F29E14CE600AF550B /* ContentView.swift */,
+				24E8C89029E40B9B00AF550B /* FrameView.swift */,
+				24E8C89729E40DC700AF550B /* ContentViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24E8C89229E40C1B00AF550B /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				24E8C89329E40C2D00AF550B /* CameraManager.swift */,
+				24E8C89529E40D7100AF550B /* FrameManager.swift */,
+				24E8C89929E4104900AF550B /* CameraError.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		24E8C89D29E4124000AF550B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				24E8C89E29E4126300AF550B /* CGImageExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,14 +210,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E8C89129E40B9B00AF550B /* FrameView.swift in Sources */,
+				24E8C89A29E4104900AF550B /* CameraError.swift in Sources */,
+				24E8C89429E40C2D00AF550B /* CameraManager.swift in Sources */,
 				24E8C88C29E272F500AF550B /* WordView.swift in Sources */,
+				24E8C89629E40D7100AF550B /* FrameManager.swift in Sources */,
 				24E8C85029E14CE600AF550B /* ContentView.swift in Sources */,
+				24E8C89829E40DC700AF550B /* ContentViewModel.swift in Sources */,
+				24E8C89F29E4126300AF550B /* CGImageExtension.swift in Sources */,
 				24E8C86729E16F8900AF550B /* ObjectClassifier.swift in Sources */,
 				24E8C84E29E14CE600AF550B /* PhonicsPlaylandApp.swift in Sources */,
-				24E8C86029E15F9400AF550B /* CustomCameraView.swift in Sources */,
-				24E8C85C29E1520000AF550B /* CameraService.swift in Sources */,
 				24E8C86529E1694100AF550B /* ObjectPhonics.mlmodel in Sources */,
-				24E8C85E29E15A5E00AF550B /* CameraView.swift in Sources */,
+				24E8C89C29E4111300AF550B /* ErrorView.swift in Sources */,
+				24E8C8A129E462CB00AF550B /* AudioManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

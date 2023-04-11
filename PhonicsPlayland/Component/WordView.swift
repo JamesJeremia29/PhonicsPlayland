@@ -9,45 +9,56 @@ import SwiftUI
 import Foundation
 
 struct WordView: View {
-    @ObservedObject var classifier: ImageClassifier
+    //    @ObservedObject var classifier: ImageClassifier
     @State var characterLoopIndex: Int = -1
-        let loopDuration: Double = 0.5
+    let loopDuration: Double = 1
+    var str1 : String = "hello"
     
     var body: some View {
-        HStack{
-            ForEach(decodeWord().indices) { index in
-                            Text("\(decodeWord()[index])")
-                                .opacity(characterLoopIndex >= index ? 1 : 0)
-                                .animation(.linear(duration: loopDuration))
-                        }
-            .onAppear(perform: {startCharacterAnimation()})
+        VStack(alignment: .center){
+//            Spacer().padding(.bottom)
+            HStack{
+                var myArr = Array(str1).map(String.init)
+                ForEach(myArr.indices) { index in
+                    Spacer().padding(.leading)
+                    Text("\(myArr[index])")
+                        .font(.system(size: 43, weight: .bold))
+                        .scaledToFit()
+                        .opacity(characterLoopIndex >= index ? 1 : 0)
+                        .animation(.linear(duration: loopDuration))
+                    Spacer().padding(.trailing)
+                }
+                .onAppear(perform: {startCharacterAnimation()})
+            }.padding(.all)
+//            Spacer().padding(.bottom)
         }
     }
-    func decodeWord()->[String]{
-        var chars: [String] = []
-        if let imageClass = classifier.imageClass{
-            let chars = Array(imageClass).map(String.init)
-            return chars
-//            for char in chars {
-//                let value = char.description
-//                print(type(of: value))
-//                return value
-//            }
-        }
-        return chars
-    }
+    //    func decodeWord()->[String]{
+    //        var chars: [String] = []
+    //        if let imageClass = classifier.imageClass{
+    //            let chars = Array(imageClass).map(String.init)
+    //            return chars
+    ////            for char in chars {
+    ////                let value = char.description
+    ////                print(type(of: value))
+    ////                return value
+    ////            }
+    //        }
+    //        return chars
+    //    }
     
     func startCharacterAnimation() {
-            let timer = Timer.scheduledTimer(withTimeInterval: loopDuration, repeats: true) { (timer) in
-                
-                characterLoopIndex += 1
-                if characterLoopIndex >= decodeWord().count {
-                    timer.invalidate()
-                }
-                
+        var myArr = Array(str1).map(String.init)
+        let timer = Timer.scheduledTimer(withTimeInterval: loopDuration, repeats: true) { (timer) in
+            
+            characterLoopIndex += 1
+            if characterLoopIndex >= myArr.count {
+                timer.invalidate()
             }
-            timer.fire()
+            
         }
+        timer.fire()
+    }
 }
 
 
@@ -65,10 +76,10 @@ class ImageClassifier: ObservableObject {
         classifier.detect(ciImage: ciImage)
         
     }
-        
+    
 }
-//struct WordView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        WordView()
-//    }
-//}
+struct WordView_Previews: PreviewProvider {
+    static var previews: some View {
+        WordView()
+    }
+}
